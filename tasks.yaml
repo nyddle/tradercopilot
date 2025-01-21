@@ -40,16 +40,19 @@ advisor_task:
     Price target:
     Rationale:
     Action:
+    Level of confidence:
     #### 3-Month Horizon
     Recommendation:  
     Price target:
     Rationale:
     Action:
+    Level of confidence:
     #### 12-Month Horizon
     Recommendation:  
     Price target:
     Rationale:
     Action:
+    Level of confidence:
 
   agent: trader
 
