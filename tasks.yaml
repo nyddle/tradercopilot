@@ -1,0 +1,56 @@
+research_task:
+  description: >
+    Conduct a fundamental analysis for {ticker}, assess the company growth and valuation including peers relative valuation. Include common metrics used to evaluate company and its growth, for non-profitable companies focus more on P/S, EV/EBITD and other relevant metrics
+  expected_output: >
+    Analysis results should contain 500-1500 symbols
+    In the end provide a summary in the following format:
+    Current Price
+    52w Low
+    52w High
+    
+    Intristic value 
+    Price target (+upside in % from current price)
+    
+    Growth: scale from A to D where A - substantial growth and D - minimum or negative growth
+    Valuation: scale from A to D where A - significantly undervalued and D - significantly overvalued
+    Sentiment: scale from A to D where A - extremely positive and D - extremely negative
+
+  agent: researcher
+
+
+tech_analysis_task:
+  description: >
+    Assess the stock's price action, including trend analysis, supply & demand, oversold and overbought levels, the Money Flow Index, and key support and resistance levels. Pullbacks to major support levels should be considered good buying opportunities.
+  expected_output: >
+    Short-term, mid-term, long-term trends
+    Key support and resistance zones
+    Oversold/overbought status and momentum
+  agent: quant
+
+
+advisor_task:
+  description: >
+    Give investment recommendation for {ticker} based on fundamental and technical analysis provided by research analyst and quant. Check the data for consistency before making any conclusions and final recommendations.
+
+  expected_output: >
+    Give recommendations on {ticker} for 1 month, 3 months and 12 months horizon in the following format
+    Current Price
+    #### 1-Month Horizon
+    Recommendation:  
+    Price target:
+    Rationale:
+    Action:
+    #### 3-Month Horizon
+    Recommendation:  
+    Price target:
+    Rationale:
+    Action:
+    #### 12-Month Horizon
+    Recommendation:  
+    Price target:
+    Rationale:
+    Action:
+
+  agent: trader
+
+
