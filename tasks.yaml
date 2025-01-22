@@ -56,7 +56,7 @@ advisor_task:
     Work with us: https://aiagency.com
 
     Also, provide a quote from a famous trader.
-    Add a disclaimer: "This is not an investment advice."
+    Add a disclaimer: "This is not an investment advice." and some generic recommendations.
 
   agent: trader
 
