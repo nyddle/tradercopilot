@@ -55,6 +55,7 @@ advisor_task:
     Level of Confidence:
 
     Also, provide a quote from a famous trader.
+    Add a disclaimer: "This is not an investment advice."
 
   agent: trader
 
