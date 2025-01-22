@@ -52,7 +52,9 @@ advisor_task:
     Price target:
     Rationale:
     Action:
-    Level of confidence:
+    Level of Confidence:
+
+    Also, provide a quote from a famous trader.
 
   agent: trader
 
