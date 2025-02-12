@@ -15,7 +15,8 @@ traders_task:
     52w Low:
     52w High:
     
-    Intristic value 
+    Intristic value relative
+    Intristic value DCF
     Price target (+upside in % from current price)
     
     Growth: scale from A to D where A - substantial growth and D - minimum or negative growth
