@@ -22,8 +22,7 @@ traders_task:
     Growth: scale from A to D where A - substantial growth and D - minimum or negative growth
     Valuation: scale from A to D where A - significantly undervalued and D - significantly overvalued
     Sentiment: scale from A to D where A - extremely positive and D - extremely negative
-    
-    
+
     Summary example:
     Current Price: $320
     52w Low: $250
