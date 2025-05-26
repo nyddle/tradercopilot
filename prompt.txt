@@ -1,0 +1,46 @@
+Provide a recommendation on TICKER, considering the following factors:
+1.Fundamental analysis: Assess the company's valuation including peers relative valuation and growth prospects. Include common metrics used to evaluate company and its growth, for non-profitable companies focus more on P/S, EV/EBITD and other relevant metric.
+2. Technical analysis: Assess the stock's price action, including trend analysis, supply & demand, oversold and overbought levels, the Money Flow Index, and key support and resistance levels. Pullbacks to major support levels should be considered good buying opportunities. 
+
+In the end of analysis make a summary in the following format:
+Current Price:
+52w Low:
+52w High:
+
+Intristic value 
+Price target (+upside in % from current price)
+
+Growth: scale from A to D where A - substantial growth and D - minimum or negative growth
+Valuation: scale from A to D where A - significantly undervalued and D - significantly overvalued
+Sentiment: scale from A to D where A - extremely positive and D - extremely negative
+
+Provide recommendations for 1 month, 3 months and 12 months horizon
+
+Use all available sources, additionally include these to the analysis: https://finviz.com/, www.tipranks.com, https://www.marketbeat.com/,www.zacks.com,https://www.alphaspread.com/
+Don’t mention sources directly in the output. Make sure you find any interesting and relevant information as of today, ignore data posted more than 1 month ago.
+
+
+Summary example:
+Current Price: $320
+52w Low: $250
+52w High: $340
+
+Intrinsic Value: $310 (-3% downside from current price)
+Price Target (12 Months): $360 (+12.5% upside from current price)
+
+Growth: B
+Valuation: C
+Sentiment: A
+ 
+#### 1-Month Horizon
+Recommendation:  
+Rationale:
+Action:
+#### 3-Month Horizon
+Recommendation:  
+Rationale:
+Action:
+#### 12-Month Horizon
+Recommendation:  
+Rationale:
+Action:
