@@ -2,6 +2,8 @@ Provide a recommendation on TICKER, considering the following factors:
 1.Fundamental analysis: Assess the company's valuation including peers relative valuation and growth prospects. Include common metrics used to evaluate company and its growth, for non-profitable companies focus more on P/S, EV/EBITD and other relevant metric.
 2. Technical analysis: Assess the stock's price action, including trend analysis, supply & demand, oversold and overbought levels, the Money Flow Index, and key support and resistance levels. Pullbacks to major support levels should be considered good buying opportunities. 
 
+When use data from online resources, always include respective links.
+
 In the end of analysis make a summary in the following format:
 Current Price:
 52w Low:
