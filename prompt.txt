@@ -21,7 +21,6 @@ Provide recommendations for 1 month, 3 months and 12 months horizon
 Use all available sources, additionally include these to the analysis: https://finviz.com/, www.tipranks.com, https://www.marketbeat.com/,www.zacks.com,https://www.alphaspread.com/
 Don’t mention sources directly in the output. Make sure you find any interesting and relevant information as of today, ignore data posted more than 1 month ago.
 
-
 Summary example:
 Current Price: $320
 52w Low: $250
